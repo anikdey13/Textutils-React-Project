@@ -38,16 +38,20 @@ export default function TextForm(props) {
         <div className="container">
             <div className="row">
                 <div className="col-lg-10">
-                <h1 className='mt-4'style = {{color: props.mode==='light'?'black':'white'}}>{props.heading}</h1>
+
+                <h1 className='mt-4' style = {{color: props.mode==='light'?'black':'white'}}>{props.heading}</h1>
+
                 </div>
                 <div className="col-lg-2 text-right">
                 <button className="btn btn-primary mx-5 mt-5 " onClick={copyText}><i className="fa-regular fa-clipboard"></i></button>
                 </div>
             </div>
         </div>
+        
         <div className="mb-3 mt-3">
             <textarea className="form-control" value={text} onChange={handleOnChange} id="myBox" rows="10" style = {{backgroundColor: props.mode==='light'?'white':'black',color:props.mode==='light'?'black':'white'}}></textarea>
         </div>
+
         <button className="btn btn-primary" onClick={Uppercase}>Convert to Uppercase</button>
         <button className="btn btn-primary mx-3" onClick={toLowerCase}>Convert to LowerCase</button>
     </div>
