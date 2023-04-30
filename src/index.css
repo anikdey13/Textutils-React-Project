@@ -76,3 +76,13 @@ input:checked + label svg.sun{
 input:checked + label svg.moon{
   fill: #fff;
 }
+.btn-wrap{
+  width: 100px;
+  display: inline-block;
+}
+/* .alertBox{
+  position: absolute;
+  width: 100%;
+  display: block;
+  z-index: 9999;
+} */
