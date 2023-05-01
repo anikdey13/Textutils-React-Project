@@ -40,7 +40,7 @@ function App() {
   
   return (
     <>
-        <Navbar title="textutils" mode={mode}/>
+        <Navbar title="Textutils" mode={mode}/>
         <Alert alert={alert}/>
         <Button mode={mode} toggleMode={toggleMode} />
         <TextForm showAlert={showAlert} heading="Give text to analyze" mode={mode}/>

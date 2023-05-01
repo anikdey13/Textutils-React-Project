@@ -31,6 +31,10 @@ export default function TextForm(props) {
             props.showAlert('Text Copied,paste it anywhere you want!','success')
         }
     }
+    // Clear Text
+    const clearText = () => {
+        setText("");
+    }
 
   return (
     <>
@@ -54,6 +58,7 @@ export default function TextForm(props) {
 
         <button className="btn btn-primary" onClick={Uppercase}>Convert to Uppercase</button>
         <button className="btn btn-primary mx-3" onClick={toLowerCase}>Convert to LowerCase</button>
+        <button className="btn btn-primary mx-3" onClick={clearText}>Clear Text</button>
     </div>
     <div className="container"style = {{color: props.mode==='light'?'black':'white'}}>
         <h1>Your text summary</h1>
