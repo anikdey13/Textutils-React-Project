@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-label{
+/* label{
   width: 100px;
   height: 40px;
   position: relative;
@@ -79,7 +79,7 @@ input:checked + label svg.moon{
 .btn-wrap{
   width: 100px;
   display: inline-block;
-}
+} */
 /* .alertBox{
   position: absolute;
   width: 100%;
